@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="contactbody">
+    <header>
+        <div class="navbar">
+        <nav>
+            <a  class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a class = "contact" href="contact.html">Contact Me <i class="fa fa-envelope"></i></a>
+        </nav>
+        </div>
+    </header>
+    <form  class="contactform" action="mailto:someone@example.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" placeholder="Name ex John Do"><br>
+        E-mail:<br>
+        <input type="text" name="mail" placeholder="Email"><br>
+        <br>
+        <textarea id="contacttextarea" name="contactname" rows="4" cols="50" placeholder="Type your message here">
+          
+        </textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </form>
+        <footer>
+            Copyright Vyzion Development 2020
+        </footer>
+    </body>
+</html>
