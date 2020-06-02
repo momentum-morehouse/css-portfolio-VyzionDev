@@ -265,7 +265,60 @@ img {vertical-align: middle;}
     margin-top: 200px;
     margin-left: 300px;
 }
+
+.vyzionimg{
+  width: 200px;
+  height: 300px;
+}
+
+.vyzdimg {
+  width: 200px;
+  height: 300px;
+}
+
+.vuzagimg {
+  width: 50px;
+  height: 50px;
+}
+
+.gemimg{
+  width: 50px;
+  height: 50px;
+}
+
+.tech-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.edu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.smulogo{
+max-width: 100px;
+max-height: 100px;
+}
+
+
+.work{
+  max-width:50;
+  max-height:50;
+}
+
+.momentumlogo {
+  max-width: 200px;
+  max-height: 300px;
   
+}
+
 footer {
     position: fixed;
     left: 0;
